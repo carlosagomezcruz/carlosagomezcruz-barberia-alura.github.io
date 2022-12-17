@@ -1,0 +1,129 @@
+header{
+    background: #CCCCCC;
+    padding: 10px;
+    margin-bottom: 3px;
+
+}
+
+.titulo-principal{
+    display: inline-block;
+    font-size: 55px;
+    margin-left: 1px;
+    font-style: italic;
+
+}
+
+.caja{
+    position: relative;
+    margin: auto;
+}
+
+.nav{
+    position: absolute;
+    top: 16px;
+    right: 0;
+
+} 
+
+.listNav li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+.listNav li a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.listNav li a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 10px;
+    padding-bottom: 19px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+p{
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+em strong{
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+#mision{
+    font-size: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.diferenciales{
+    padding: 30px;
+
+}
+
+.diferenciales-ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    list-style: disc;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+.diferenciales-ul li{
+    font-size: 19px;
+}
+
+.items{
+    font-style: italic;
+}
+
+
+.imagenDifereciales{
+    position: relative;
+    bottom:9px;
+    left: 80px;
+    width: 50%
+} 
+/* Colores en formato hexadecimal
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F 
+Negro(ausencia de color) = 000000;
+Blanco = FFFFFF;
+Se puede usar la funcion rgb():
+negro = rgb(0,0,0);
+blanco = rgb(255,255,255);
+ */
